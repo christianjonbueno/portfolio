@@ -1,0 +1,10 @@
+[
+  {
+    "title": "adidas Produuct Detail Mock-Up",
+    "tech": ["Express.js", "React.js", "MongoDB"],
+    "description": ["Implemented a search & sort functionality by querying the database of 100 unique records and displaying the dynamic data via AJAX.","Linked 4 modules and databases onto a single-page using a service-oriented architecture."],
+    "image": "https://i.imgur.com/VjH4sro.png",
+    "image_2": "https://i.imgur.com/Sc7qASD.gif",
+    "link": "http://3.101.29.112/1/"
+  }
+]
