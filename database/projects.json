@@ -1,10 +1,18 @@
 [
   {
-    "title": "adidas Produuct Detail Mock-Up",
+    "title": "adidas Product Detail Mock-Up",
     "tech": ["Express.js", "React.js", "MongoDB"],
     "description": ["Implemented a search & sort functionality by querying the database of 100 unique records and displaying the dynamic data via AJAX.","Linked 4 modules and databases onto a single-page using a service-oriented architecture."],
     "image": "https://i.imgur.com/VjH4sro.png",
     "image_2": "https://i.imgur.com/Sc7qASD.gif",
     "link": "http://3.101.29.112/1/"
+  },
+  {
+    "title": "Hackbox Party",
+    "tech": ["Socket.io", "Express.js", "React.js", "MongoDB"],
+    "description": ["Implements Socket.io for 4 users to play together.","Created a room system that allows separate groups to play."],
+    "image": "https://i.imgur.com/AjP3lda.png",
+    "image_2": "https://i.imgur.com/zUX1bYa.gif",
+    "link": "http://18.144.171.39:8080"
   }
 ]
