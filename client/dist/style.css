@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Muli:wght@300&family=Open+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.navTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+}
+.nav-item {
+  color: lightgray;
+}
+.nav-item:hover {
+  text-decoration: none;
+}
+.topPic {
+  text-align: center;
+}
+.mainPic {
+  width: 20%;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  padding: 5px;
+  -webkit-box-shadow: 10px 10px 6px -4px rgba(219,219,219,0.85);
+  -moz-box-shadow: 10px 10px 6px -4px rgba(219,219,219,0.85);
+  box-shadow: 10px 10px 6px -4px rgba(219,219,219,0.85);
+}
+@media only screen and (max-width: 600px) {
+  .mainPic {
+    width: 50%;
+  }
+}
+.homeHr {
+  margin-top: -100px;
+  margin-bottom: 130px;
+  border: 1px solid lightgray;
+}
+.typeWriterContainer {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.bracket {
+  display: inline-block;
+}
+.typeWriter {
+  font-size: 3rem;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.topProjects {
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+.projectThumbnails {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 6px -4px rgba(219,219,219,0.85);
+  -moz-box-shadow: 10px 10px 6px -4px rgba(219,219,219,0.85);
+  box-shadow: 10px 10px 6px -4px rgba(219,219,219,0.85);
+}
+.projectThumbnails:hover {
+  transition: .5s;
+  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(.5px);
+  transform: scale(1.05);
+}
+.projectContainer {
+  border: 2px solid rgb(235, 235, 235);
+  border-radius: 1em;
+  padding: 10px;
+  margin-bottom: 1em;
+  -webkit-box-shadow: 10px 10px 6px -4px rgba(219,219,219,0.85);
+  -moz-box-shadow: 10px 10px 6px -4px rgba(219,219,219,0.85);
+  box-shadow: 10px 10px 6px -4px rgba(219,219,219,0.85);
+}
+.projectTitle {
+  text-align: right;
+}
+.projectPic {
+  width: 100%;
+}
+.projectDesc {
+  list-style: square;
+}
+.greySpace {
+  margin-top: -30px;
+  height: 10vh;
+  background-color: rgb(232, 232, 232);
+}
+.resumeTitle {
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgb(91,91,91);
+}
+.resumeName {
+  font-size: 4em;
+  font-family: 'Montserrat', sans-serif;
+}
+.leftSide {
+  border-right: 2px solid lightgray;
+}
+.resumeHr {
+  border: 1px solid lightgray;
+  width: 90%;
+  margin-top: 0;
+}
+@media only screen and (max-width: 600px) {
+  .resumeName {
+    font-size: 2em;
+  }
+  .leftSide {
+    font-size: 8px;
+  }
+}
+.jobTitle {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.5em;
+}
+.belowTitle {
+  height: 2vh;
+  background-color: rgb(232, 232, 232);
+  margin-bottom: 30px;
+}
