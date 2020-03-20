@@ -6,6 +6,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 .navbar {
+  position: relative;
+  z-index: 2;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -131,4 +133,37 @@
   height: 2vh;
   background-color: rgb(232, 232, 232);
   margin-bottom: 30px;
+}
+.pdfContainer {
+  height: 960px;
+  margin-top: -90px;
+  margin-right: -100px;
+  text-align: center;
+  padding: 0;
+}
+@media only screen and (max-width: 600px) {
+  .pdfContainer {
+    height: 700px;
+  }
+}
+/* .contactTitle {
+  margin-bottom: 40px;
+} */
+input {
+  font-size: 1.5em;
+}
+.contactBtn {
+  border: 0.5px solid lightgrey;
+  width: 100px;
+  height: 50px;
+}
+.contactBtn:hover {
+  transition: 0.2s;
+  background-color: black;
+  color: white;
+  border: 0.5px solid white;
+}
+.success {
+  transition: 0.2s;
+  color: rgb(2, 146, 2);
 }
