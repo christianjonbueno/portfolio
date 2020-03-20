@@ -41,7 +41,7 @@ export default function Contact () {
             speed= "100"
             eraseDelay= "900"
             typingDelay= "200"
-            className="typeWriter"
+            className="typeWriterContact"
           />
           <h1 className="bracket display-5">{`>`}</h1>
         </div>
