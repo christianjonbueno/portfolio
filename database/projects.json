@@ -5,7 +5,8 @@
     "description": ["Implemented a search & sort functionality by querying the database of 100 unique records and displaying the dynamic data via AJAX.","Linked 4 modules and databases onto a single-page using a service-oriented architecture."],
     "image": "https://i.imgur.com/VjH4sro.png",
     "image_2": "https://i.imgur.com/Sc7qASD.gif",
-    "link": "http://3.101.29.112/1/"
+    "link": "http://3.101.29.112/1/",
+    "github": "https://github.com/All-Day-I-Dream-About-Servers"
   },
   {
     "title": "Hackbox Party",
@@ -13,6 +14,15 @@
     "description": ["Implements Socket.io for 4 users to play together.","Created a room system that allows separate groups to play."],
     "image": "https://i.imgur.com/AjP3lda.png",
     "image_2": "https://i.imgur.com/zUX1bYa.gif",
-    "link": "http://18.144.171.39:8080"
-  }
+    "link": "http://18.144.171.39:8080",
+    "github": "https://github.com/christianjonbueno/hackboxspy"
+  },
+  {
+    "tech" : ["MongoDB","Express.js","React.js","Bcrypt"],
+    "description" : ["Fantasy draft app for the reality TV show, Survivor. I continue to update that app with current stats of each player.", "Utilizes Bcrypt for admin access to the Trade Players and Edit Players functionalities"],
+    "title" : "Survivor Fantasy Draft & Stat Tracker",
+    "image" : "https://i.imgur.com/2sAGxud.png",
+    "image_2" : "https://i.imgur.com/VZAFGk5.gif",
+    "github" : "https://github.com/christianjonbueno/survivor"
+    }
 ]

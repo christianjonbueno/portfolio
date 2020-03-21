@@ -61,6 +61,7 @@ export default function Projects () {
                   {project.description.map((d) =>{return <li className="descLi">{d}</li>})}
                 </ul>
                 <h4 className="text-muted">Visit App: </h4><a href={project.link}>{project.link}</a>
+                <h4 className="text-muted">Github: </h4><a href={project.github}>{project.github}</a>
               </div>
             </div>
             <div className="row"></div>
